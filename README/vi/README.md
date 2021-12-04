@@ -1,18 +1,9 @@
-# Cardano Catalyst Community Eastern Townhall template website
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-
+# Cardano Eastern Townhall template website
 ## Overview
 
 [English](/README/en/README.md) | [Tiếng Việt](/README/vi/README.md) | [Indonesia](/README/id/README.md) | [日本語](/README/ja/README.md) | [한국어](/README/ko/README.md)
 
-This repository contains Cardano Catalyst Community (C3) Eastern Townhall (ETH) updates and related documentation. C3ETH is helping to enable community members from a wide variety of countries and languages in the eastern timezones. A particular focus of the team is to localise Cardano Catalyst content and on-boarding to enable the widest participation possible.
-
-This repository contains C3ETH translations of Project Catalyst documentation, community-sourced documentation, and related proposals. The content is translated into the many languages of the eastern hemisphere, with a particular focus on East Asian languages.
-
-[Project Catalyst](https://cardano.ideascale.com/) is the **beginning** of bringing on-chain governance to Cardano. It is a series of experiments that leverage the collective intelligence of the Catalyst Community to determine the future direction and development of the Cardano ecosystem. Through a series of innovation funds, the community sources ideas decides which to fund, and finances them. Sourcing the best ideas for building a global blockchain.
-
+This repository contains a simple website template using [Docsy](https://docsy.dev/). Docsy is a Hugo theme for technical documentation sets, providing simple navigation, site structure, and more. This template is a standard for creating other websites but with a focus on Issue templates and github workflows enabled for continuous deployment. Simply follow the instructions below depending on which enviroment you wish to use.
 ## Building with Docker
 
 The website and documentation is compiled and developed using [Hugo](https://gohugo.io/) and the [Docsy Theme](https://www.docsy.dev/). To build the site requires [Node](https://nodejs.org/en/), [Npm](https://www.npmjs.com/), and [PostCSS](https://postcss.org/). Instead of having to locally install these tools, you can build the site using [Docker](https://docs.docker.com/get-started/overview/). This has the advantage of providing a uniform development environment.
@@ -56,7 +47,7 @@ Building and running the site locally requires a recent `extended` version of [H
 ## Cloning the Website
 
 ```bash
-$ git clone --recurse-submodules --depth 1 https://github.com/C3ETH/c3eth.github.io.git
+$ git clone --recurse-submodules --depth 1 https://github.com/my/example.git
 $ cd c3eth.github.io
 ```
 
@@ -98,9 +89,9 @@ This project follows the [all-contributors](https://github.com/all-contributors/
 
 ## License ![GitHub](https://img.shields.io/github/license/c3eth/c3eth.github.io)
 
-The published source code in the repository `c3eth/c3eth.github.io` is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/c3eth/c3eth.github.io/main/LICENSE.md) file for details.
+The published source code in the repository is licensed under the Apache License 2.0 - see the [LICENSE](https://github.com/c3eth/c3eth.github.io/main/LICENSE.md) file for details.
 
-The published content in the repository `c3eth/c3eth.github.io` is licensed under the [Creative Attribution-Non-Commercial-ShareAlike (CC BY-NC-SA) License v4.0.](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+The published content in the repositoryis licensed under the [Creative Attribution-Non-Commercial-ShareAlike (CC BY-NC-SA) License v4.0.](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 You are free to Share (copy and redistribute) the material in any medium or format
 adapt, remix, transform, and build upon the material. You may not use the material for commercial purposes.  If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. No warranties are given. The license may not give you all of the permissions necessary for your intended use.
