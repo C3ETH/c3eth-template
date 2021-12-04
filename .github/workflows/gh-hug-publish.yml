@@ -1,14 +1,6 @@
 name: Hugo-Publish
 
-on: 
-  push:
-    paths: 
-      - 'content/**'
-      # - 'i18n/**'
-      - 'static/**'
-      - 'assets/**'
-      - 'layouts/**'
-      - 'config/**'
+on: push
 
 jobs:
   deploy:
