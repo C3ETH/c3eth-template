@@ -23,6 +23,7 @@ jobs:
             node-version: '16'
         
         - run: npm install
+        - run: npm ci
         - run: Hugo --minify
 
         - name: publish site
