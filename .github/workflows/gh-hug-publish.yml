@@ -2,8 +2,13 @@ name: Hugo-Publish
 
 on: 
   push:
-    branches:
-      - main
+    paths: 
+      - 'content/**'
+      - 'i18n/**'
+      - 'static/**'
+      - 'assets/**'
+      - 'layouts/**'
+      - 'config/**'
 
   workflow_dispatch:
 
