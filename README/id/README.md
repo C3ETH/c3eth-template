@@ -1,4 +1,4 @@
-# Cardano Eastern Townhall template website
+# Doscy Action Website Template Repository
 ## Overview
 
 [English](/README/en/README.md) | [Tiếng Việt](/README/vi/README.md) | [Indonesia](/README/id/README.md) | [日本語](/README/ja/README.md) | [한국어](/README/ko/README.md)
@@ -48,7 +48,7 @@ Building and running the site locally requires a recent `extended` version of [H
 
 ```bash
 $ git clone --recurse-submodules --depth 1 https://github.com/my/example.git
-$ cd c3eth.github.io
+$ cd my-example
 ```
 
 The site is build on the [Docsy theme](https://www.docsy.dev/) as a submodule. To update the submodule run:

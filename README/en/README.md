@@ -1,4 +1,4 @@
-# Cardano Eastern Townhall template website
+# Doscy Action Website Template Repository
 ## Overview
 
 [English](/README/en/README.md) | [Tiếng Việt](/README/vi/README.md) | [Indonesia](/README/id/README.md) | [日本語](/README/ja/README.md) | [한국어](/README/ko/README.md)
