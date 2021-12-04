@@ -1,1 +1,1 @@
-./README/en/README.md
+README/en/README.md
