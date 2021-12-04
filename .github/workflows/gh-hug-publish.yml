@@ -4,7 +4,6 @@ on:
   push:
     paths: 
       - 'content/**'
-      - 'i18n/**'
       - 'static/**'
       - 'assets/**'
       - 'layouts/**'
