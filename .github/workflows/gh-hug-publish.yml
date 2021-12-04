@@ -1,0 +1,51 @@
+name: Hugo-Publish
+
+on:
+  push:
+    branches:
+      - release
+    paths: 
+      - 'content/**'
+      # - 'i18n/**'
+      - 'static/**'
+      - 'assets/**'
+      - 'layouts/**'
+      - 'config/**'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+        - name: checkout repo
+          uses: actions/checkout@v2
+          with:
+            submodules: recursive  # Fetch Hugo themes (true OR recursive)
+            fetch-depth: 1         # Fetch all history for .GitInfo and .Lastmod
+            lfs: true
+        - name: set up Hugo
+          uses: peaceiris/actions-hugo@v2
+          with:
+            hugo-version: 'latest'
+            extended: true
+        - name: Setup Node
+          uses: actions/setup-node@v2
+          with:
+            node-version: '16'
+        
+        - name: Install dependencies
+           run: npm install
+        
+        - name: build site
+           run: Hugo --minify
+
+        - name: publish site
+          uses: peaceiris/actions-gh-pages@v3
+          with:
+            github-token: ${{ secrets.GITHUB_TOKEN }}
+            enable_jekyll: false
+            publish_dir: ./public
+            publish_branch: website # Deploy branch
+            force_orphan: true
+            user_name: 'github-actions[bot]'
+            user_email: '38515818+PardusEidolon@users.noreply.github.com'
+            commit_message: ${{ github.event.head_commit.message }}
