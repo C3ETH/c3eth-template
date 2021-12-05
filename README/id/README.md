@@ -61,6 +61,11 @@ $ git pull --recurse-submodules
 
 The documents are in the ```content/{en,vn,in,jp,ko}``` directories, select the desired section to edit or add, for content organization please refer to: https://gohugo.io/content-management/organization/.
 
+## Publishing Your Site
+GitHub provides free and fast static hosting over SSL for personal, organization, or project pages directly from a GitHub repository via its GitHub Pages service and automating development workflows and build with GitHub Actions.
+
+When publishing your site its important to change your baseURL in your `config.tomol`. rename your baseURL with the value https://`YOUR_REPOSITORY`.github.io for your user repository.
+
 ## Change Log
 
 See [CHANGELOG.md](CHANGELOG.md) for notable changes and versions.
