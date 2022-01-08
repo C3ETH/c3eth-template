@@ -47,7 +47,7 @@ Building and running the site locally requires a recent `extended` version of [H
 ## Cloning the Website
 
 ```bash
-$ git clone --recurse-submodules --depth 1 https://github.com/my/example.git
+$ git clone --recurse-submodules --depth 1 https://github.com/C3ETH/c3eth-template.git
 $ cd my-example
 ```
 
@@ -64,7 +64,7 @@ When publishing your site its important to change your baseURL in your `config.t
 
 Navigate to your repositories setting and under the settings tab select `pages`. From there you will want to select the deployed `website` branch and click save.
 ## Issue template Forums
-Issues can be used to send feedback to the team for further development. In the `config.tomol` under `congfig/_default` you will see a parameters section named `[params.ui.feedback]` with the enabled `true` by default. Note that there are two conditions for each button: a link for `no` and a link for `yes`. You can change the link to specifically use custom templates or leave them at the default prompting the user to choose a forum from the issue templates. 
+Issues can be used to send feedback to the team for further development. In the `config.tomol` under `congfig/_default` you will see a parameters section named `[params.ui.feedback]` with the enabled `false` by default. Note that there are two conditions for each button: a link for `no` and a link for `yes`. You can change the link to specifically use custom templates or leave them at the default prompting the user to choose a forum from the issue templates. 
 
 ## Edit Website Documents
 

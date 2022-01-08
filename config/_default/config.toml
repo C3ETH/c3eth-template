@@ -70,7 +70,7 @@ id = "UA-00000000-0"
 
 [languages]
 [languages.en]
-title = "Goldydocs"
+title = "Catalyst Eastern Townhall"
 description = "A Docsy example site"
 languageName ="English"
 # Weight used for sorting.
@@ -83,14 +83,6 @@ contentDir = "content/no"
 time_format_default = "02.01.2006"
 time_format_blog = "02.01.2006"
 
-[languages.fa]
-title = "اسناد گلدی"
-description = "یک نمونه برای پوسته داکسی"
-languageName ="فارسی"
-contentDir = "content/fa"
-time_format_default = "2006.01.02"
-time_format_blog = "2006.01.02"
-
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
@@ -100,6 +92,14 @@ time_format_blog = "2006.01.02"
       style = "tango"
       # Uncomment if you want your chosen highlight style used for code blocks without a specified language
       # guessSyntax = "true"
+
+[[menu.main]]
+    name = "GitHub"
+    weight = 100
+    url = "https://github.com/C3ETH/c3eth-template"
+    pre = "<i class='fab fa-github'></i>"
+    post = "<span class='alert'>New!</span>" 
+
 
 # Everything below this are Site Params
 
@@ -154,7 +154,7 @@ algolia_docsearch = false
 offlineSearch = false
 
 # Enable syntax highlighting and copy buttons on code blocks with Prism
-prism_syntax_highlighting = false
+prism_syntax_highlighting = true
 
 # User interface configuration
 [params.ui]
@@ -176,7 +176,7 @@ sidebar_search_disable = false
 # If you want this feature, but occasionally need to remove the "Feedback" section from a single page,
 # add "hide_feedback: true" to the page's front matter.
 [params.ui.feedback]
-enable = true
+enable = false
 # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
 yes = 'Glad to hear it! Please <a href="https://github.com/PardusEidolon/example.github.io/issues/new/choose">tell us how we can improve</a>.'
 no = 'Sorry to hear that. Please <a href="https://github.com/PardusEidolon/example.github.io/issues/new/choose">tell us how we can improve</a>.'
