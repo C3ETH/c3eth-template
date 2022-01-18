@@ -93,12 +93,12 @@ time_format_blog = "02.01.2006"
       # Uncomment if you want your chosen highlight style used for code blocks without a specified language
       # guessSyntax = "true"
 
-[[menu.main]]
-    name = "GitHub"
-    weight = 100
-    url = "https://github.com/C3ETH/c3eth-template"
-    pre = "<i class='fab fa-github'></i>"
-    post = "<span class='alert'>New!</span>" 
+#[[menu.main]]
+    #name = "GitHub"
+    #weight = 100
+    #url = "https://github.com/C3ETH/c3eth-template"
+    #pre = "<i class='fab fa-github'></i>"
+    #post = "<span class='alert'>New!</span>" 
 
 
 # Everything below this are Site Params
